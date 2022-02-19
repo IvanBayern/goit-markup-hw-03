@@ -38,6 +38,8 @@ ul
     {
         margin-top: 0;
         margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 .list {
         padding-left: 0;
@@ -154,6 +156,7 @@ ul
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
+
     }
 .hero 
     {   
@@ -279,17 +282,18 @@ padding-bottom: 30px;
     line-height: 2;
     letter-spacing: 0.06em;
     color:var(--black-txt-cl);
-    margin: 20px 24px 4px 24px;
+    margin-bottom: 4px;
     
     }
+.container-works {
+    padding: 20px 24px;
+}
 .works-text
     {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    margin-left: 24px;
-    margin-right: 24px;
+    
     }
 .btn-item
     {
